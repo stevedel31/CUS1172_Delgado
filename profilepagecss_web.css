@@ -1,0 +1,96 @@
+@media print{
+    .screen_only{
+        display: none;
+    }
+}
+h3 {
+    color:#2a642c;
+    text-align: center;
+}
+
+#menu_section {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a642c;
+    
+}
+
+#menu_section >li{
+    float:left;
+}
+
+#menu_section>li a  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration:none;
+
+    
+}
+
+#menu_section>li a:hover {
+    background-color: #193b1a;
+}
+
+.text {
+    text-align: center;
+}
+
+
+
+#education_info ul>li {
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+#work_info {
+    text-align:center;
+    list-style-position: inside;
+}
+
+#programming_info{
+    text-align:center;
+    list-style-position: inside;
+}
+
+#favorite_site ul>li{
+    text-align: center;
+    list-style-position: inside;
+}
+
+#my_projects {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.box_table>table{
+border-width:1px;
+border-style:solid;
+border-color: black;
+border-collapse: collapse;
+width: 50%;
+margin: 0 auto;
+
+}
+
+.box_table>table th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.box_table>table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.box_table>table tr:nth-child(even){
+    background-color:f2f2f2;
+}
+
